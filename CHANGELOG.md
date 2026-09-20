@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0-rc.4 - 2026-09-20
+
+- Corrected the release-candidate version shown in both public READMEs and repackaged the verified source so repository, package, manifest, and release metadata agree.
+
 ## 0.5.0-rc.3 - 2026-09-20
 
 - Required one separately retained visible search workspace whose field or query label shows the exact frozen query at final verification.

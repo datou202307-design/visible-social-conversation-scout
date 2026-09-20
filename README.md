@@ -6,7 +6,7 @@ It helps an account operator collect a limited set of public conversation pages,
 
 ## Status
 
-Version `0.5.0-rc.2` is a requirements-first public release candidate. It is not affiliated with or endorsed by Douyin, Xiaohongshu, OpenCLI, or DokoBot.
+Version `0.5.0-rc.4` is a requirements-first public release candidate. It is not affiliated with or endorsed by Douyin, Xiaohongshu, OpenCLI, or DokoBot.
 
 ## Core behavior
 
