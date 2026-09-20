@@ -3,6 +3,7 @@
 ## 0.5.0-rc.4 - 2026-09-20
 
 - Corrected the release-candidate version shown in both public READMEs and repackaged the verified source so repository, package, manifest, and release metadata agree.
+- Updated the GitHub Actions runtime dependencies to their current Node 24-compatible major versions.
 
 ## 0.5.0-rc.3 - 2026-09-20
 
