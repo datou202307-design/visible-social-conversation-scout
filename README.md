@@ -1,5 +1,7 @@
 # Visible Social Conversation Scout
 
+English | [简体中文](README.zh-CN.md)
+
 A Codex Skill for small, observable, human-controlled review sessions on Douyin and Xiaohongshu.
 
 It helps an account operator collect a limited set of public conversation pages, verify what each page says, order them for human review, and draft account-consistent response options. It never publishes or performs other platform writes.
