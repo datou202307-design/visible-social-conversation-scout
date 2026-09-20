@@ -1,0 +1,18 @@
+Visible Social Conversation Scout
+Copyright 2026 sircle_pan
+
+This project was written from an independent requirements specification for
+small, visible, human-controlled public conversation review.
+
+Conceptual inspiration is acknowledged to X Hot Reply Copilot by
+JessiJCJingyi:
+https://github.com/JessiJCJingyi/x-hot-reply-copilot
+
+That repository did not advertise an open-source license when this release
+candidate was prepared. No files, code, templates, or documentation from that
+repository are distributed in this project. The acknowledgement grants no
+license to the referenced work.
+
+OpenCLI and DokoBot are optional external tools. They are not bundled,
+modified, or redistributed by this project. See THIRD_PARTY.md.
+

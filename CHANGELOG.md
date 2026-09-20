@@ -1,0 +1,19 @@
+# Changelog
+
+## 0.5.0-rc.3 - 2026-09-20
+
+- Required one separately retained visible search workspace whose field or query label shows the exact frozen query at final verification.
+- Completed a strict Xiaohongshu live pass with three retained detail pages, three account-voice response options per page, and zero platform writes.
+
+## 0.5.0-rc.2 - 2026-09-20
+
+- Added an account-matched subject path that validates the plan first, derives one topic from the current platform account's bounded public evidence, and freezes it before search.
+- Added a first-read authorization guard that rejects missing, stale, cross-platform, or parameterized browser entry attempts before live platform access.
+
+## 0.5.0-rc.1 - 2026-09-20
+
+- Re-authored the Skill from independent requirements for visible, bounded, human-controlled social conversation review.
+- Introduced the `visible-conversation-run-v1` run plan and `social-review-queue-v1` review contract.
+- Replaced inherited reply categories with four response stances: `page_detail`, `bounded_practice`, `open_question`, and conditional `declared_resource`.
+- Added an additive review score with evidence gates and explicit uncertainty and saturation penalties.
+- Added synthetic examples, behavior tests, public security guidance, third-party notices, and Apache-2.0 licensing.

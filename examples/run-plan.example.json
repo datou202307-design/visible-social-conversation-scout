@@ -1,0 +1,62 @@
+{
+  "schema_version": "visible-conversation-run-v1",
+  "platform": "xiaohongshu",
+  "subject": "synthetic example topic",
+  "access_route": "visible_browser",
+  "operator": {
+    "user_started": true,
+    "account_owner_confirmed": true,
+    "login_completed_by_human": true,
+    "visible_browser": true
+  },
+  "limits": {
+    "queries": 3,
+    "list_items_seen": 24,
+    "detail_pages": 8,
+    "public_comments_per_page": 3,
+    "account_profile_reads": 1,
+    "account_posts_sampled": 3
+  },
+  "delivery": {
+    "minimum_pages": 3,
+    "goal_pages": 5,
+    "maximum_pages": 5,
+    "responses_per_page": 3
+  },
+  "cadence": {
+    "single_flight": true,
+    "discovery_wait_seconds": 15,
+    "page_wait_seconds": 20,
+    "cooldown_after_reads": 5,
+    "cooldown_seconds": 45,
+    "jitter": false
+  },
+  "permissions": {
+    "like": false,
+    "save": false,
+    "follow": false,
+    "comment": false,
+    "publish": false,
+    "edit": false,
+    "delete": false,
+    "message": false,
+    "export_credentials": false,
+    "identity_masking": false,
+    "network_rotation": false,
+    "challenge_solving": false
+  },
+  "stop_conditions": [
+    "captcha",
+    "account_challenge",
+    "rate_limit",
+    "login_expired",
+    "permission_prompt",
+    "platform_warning",
+    "unexpected_redirect",
+    "target_mismatch",
+    "repeated_read_failure"
+  ],
+  "rule_reviewed_at": "2026-09-20",
+  "raw_evidence_days": 14
+}
+

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.env
+.env.*
+!.env.example
+.runtime/
+runs/
+evidence/
+artifacts/
+*.har
+*.zip
+run-plan-receipt.json
+browser-read-authorization.json
+review-queue.json

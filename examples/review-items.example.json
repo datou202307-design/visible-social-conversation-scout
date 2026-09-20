@@ -1,0 +1,96 @@
+{
+  "schema_version": "social-review-queue-v1",
+  "platform": "xiaohongshu",
+  "captured_at": "2026-09-20T10:00:00Z",
+  "subject": "synthetic example topic",
+  "run_plan_receipt": {
+    "status": "accepted",
+    "input_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "voice_context": {
+    "source": "current_account_public_posts",
+    "profile_reads": 1,
+    "posts_sampled": 3,
+    "confidence": "medium",
+    "patterns": [
+      "short sentences supported by repeated synthetic samples",
+      "direct questions supported by repeated synthetic samples"
+    ],
+    "source_ids": [
+      "synthetic-account-post-1",
+      "synthetic-account-post-2",
+      "synthetic-account-post-3"
+    ]
+  },
+  "items": [
+    {
+      "id": "xiaohongshu:synthetic-note-1",
+      "content_id": "synthetic-note-1",
+      "source_url": "https://example.invalid/xiaohongshu/synthetic-note-1",
+      "public_author_label": "synthetic creator one",
+      "title": "Synthetic verified conversation",
+      "evidence": {
+        "target_matched": true,
+        "understanding": "verified_page",
+        "sensitive_topic": false,
+        "public_excerpt": "Synthetic evidence used only for validator testing."
+      },
+      "public_counters": {
+        "likes": 240,
+        "comments": 18,
+        "saves": 31
+      },
+      "observations": {
+        "subject_overlap": 4,
+        "contribution_specificity": 4,
+        "audience_continuity": 2,
+        "attention_evidence": 2,
+        "response_space": 2,
+        "evidence_strength": 5
+      },
+      "penalties": {
+        "saturation": 1,
+        "uncertainty": 0
+      },
+      "relationship_disclosure_required": false,
+      "disclosure_reviewed": false,
+      "limitations": []
+    },
+    {
+      "id": "xiaohongshu:synthetic-note-2",
+      "content_id": "synthetic-note-2",
+      "source_url": "https://example.invalid/xiaohongshu/synthetic-note-2",
+      "public_author_label": "synthetic creator two",
+      "title": "Synthetic partial conversation",
+      "evidence": {
+        "target_matched": true,
+        "understanding": "partial",
+        "sensitive_topic": false,
+        "public_excerpt": "Synthetic partial evidence."
+      },
+      "public_counters": {
+        "likes": 90,
+        "comments": 5,
+        "saves": null
+      },
+      "observations": {
+        "subject_overlap": 3,
+        "contribution_specificity": 2,
+        "audience_continuity": 2,
+        "attention_evidence": 1,
+        "response_space": 2,
+        "evidence_strength": 2
+      },
+      "penalties": {
+        "saturation": 0,
+        "uncertainty": 2
+      },
+      "relationship_disclosure_required": false,
+      "disclosure_reviewed": false,
+      "limitations": [
+        "Page-specific claim is not fully established."
+      ]
+    }
+  ]
+}
+
