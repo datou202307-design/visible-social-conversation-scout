@@ -1,8 +1,8 @@
-# Visible Social Conversation Scout
+# Douyin & Xiaohongshu AI Conversation Scout
 
 English | [简体中文](README.zh-CN.md)
 
-A Codex Skill for small, observable, human-controlled review sessions on Douyin and Xiaohongshu.
+Visible Social Conversation Scout is a Codex Skill that finds relevant, active Douyin or Xiaohongshu content in a visible browser and prepares account-consistent comments for human review.
 
 It helps an account operator collect a limited set of public conversation pages, verify what each page says, order them for human review, and draft account-consistent response options. It never publishes or performs other platform writes.
 

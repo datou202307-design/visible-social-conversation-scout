@@ -3,7 +3,7 @@ name: visible-social-conversation-scout
 description: Run a small, human-controlled Douyin or Xiaohongshu review session in a visible browser, preserve three to five verified public conversation pages, and prepare three evidence-bound account-voice response options per page without performing platform writes.
 ---
 
-# Visible Social Conversation Scout
+# Douyin & Xiaohongshu AI Conversation Scout
 
 Help an account operator find a small set of public conversations that deserve human attention. Keep the browser observable, establish what each page actually says, prioritize review with explicit evidence, prepare account-consistent response options, and stop before any platform write.
 

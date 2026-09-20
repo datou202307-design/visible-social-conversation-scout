@@ -1,5 +1,4 @@
 interface:
-  display_name: "可见社媒对话侦察员"
-  short_description: "保留3–5个公开原页面并生成账号语气回复"
+  display_name: "抖音/小红书热门互动助手"
+  short_description: "可见浏览器找3–5个热门页面，生成符合账号人设的待审评论"
   default_prompt: "Use $visible-social-conversation-scout for one user-started Douyin or Xiaohongshu review session in the visible logged-in browser. Verify public page evidence sequentially, preserve three to five distinct original pages for operator review, and prepare exactly three account-voice response options per page. Do not perform likes, saves, follows, comments, publishing, messages, or any other platform write."
-
