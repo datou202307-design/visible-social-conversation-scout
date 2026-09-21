@@ -2,27 +2,30 @@
 
 English | [简体中文](README.zh-CN.md)
 
-Visible Social Conversation Scout is a Codex Skill that finds relevant, active Douyin or Xiaohongshu content in a visible browser and prepares account-consistent comments for human review.
+![Douyin and Xiaohongshu AI Conversation Scout reading a public account voice, retaining candidate pages, and waiting for human takeover in a visible browser](assets/readme-banner.png)
 
-It helps an account operator collect a limited set of public conversation pages, verify what each page says, order them for human review, and draft account-consistent response options. It never publishes or performs other platform writes.
+**Find active content that fits the current account, retain 3–5 original pages in a visible logged-in browser, and prepare three review-only comments for every page.**
 
-## Status
+Visible Social Conversation Scout is a Codex Skill for human-controlled Douyin and Xiaohongshu participation. The browser stays visible and ready for immediate takeover. The Skill never comments, likes, saves, follows, publishes, or sends messages for the user.
 
-Version `0.5.0-rc.4` is a requirements-first public release candidate. It is not affiliated with or endorsed by Douyin, Xiaohongshu, OpenCLI, or DokoBot.
+## The workflow in eight seconds
 
-## Core behavior
+![Five-step workflow from reading the public account voice to human takeover](assets/workflow-demo.gif)
 
-- One platform and one visible browser session per run.
-- One retained, query-visible search workspace as discovery trace; it does not count toward page delivery.
-- Human-owned login and immediate human takeover.
-- Fixed read budgets, sequential execution, and explicit stop conditions.
-- Three to five verified original pages retained in the user's browser.
-- Exactly three evidence-bound response options per page.
-- Account voice derived from no more than five recent public posts.
-- Optional account-matched topic selection, rebuilt from the current platform account's public evidence before search.
-- No likes, saves, follows, comments, publishing, messages, credential export, challenge bypass, identity masking, or anti-detection behavior.
+`Read public account voice → Search in a visible browser → Retain 3–5 original pages → Prepare three review-only comments per page → Human takeover`
 
-## Install as a Codex Skill
+All accounts, posts, authors, metrics, and images in the demo are synthetic. No real login state or live post data is included.
+
+## What one run delivers
+
+- Three to five verified original pages retained in the user's browser for one platform.
+- One query-visible search workspace retained as discovery evidence; it does not count toward page delivery.
+- Exactly three evidence-bound, account-consistent response options per page.
+- Optional topic selection derived from the current platform account's public profile and up to five public posts.
+- Selection rationale, evidence limits, account-voice confidence, and disclosure reminders.
+- Zero platform writes; the user edits and publishes manually.
+
+## Install in 30 seconds
 
 Copy this repository directory to:
 
@@ -33,22 +36,34 @@ Copy this repository directory to:
 The Skill becomes available on the next Codex turn. Invoke it explicitly with:
 
 ```text
-Use $visible-social-conversation-scout to review one topic on Xiaohongshu in my visible logged-in browser. Deliver three original pages and three response options per page. Keep all platform writes disabled.
+Use $visible-social-conversation-scout to review one topic on Xiaohongshu in my visible logged-in Chrome. Deliver three original pages and three response options per page. Keep all platform writes disabled.
 ```
 
-Or ask it to choose one topic that matches the current platform account:
+Or ask it to choose a topic that fits the current platform account:
 
 ```text
 Use $visible-social-conversation-scout on Douyin and derive one topic from the current account's public profile and up to five public posts. Freeze that topic before search, then deliver three original pages with three response options each. Keep all platform writes disabled.
 ```
+
+## Safety boundaries
+
+- One platform, one topic, and one user-visible browser session per run.
+- Human-owned login, visible browsing, retained pages, and immediate human takeover.
+- Public pages only, within an explicit read budget and stop conditions.
+- No CAPTCHA handling, credential export, identity masking, network rotation, randomized behavior, or anti-detection features.
+- No likes, saves, follows, comments, publishing, or messages.
+
+Adapter availability does not grant permission to automate a platform. Review current platform rules, account permissions, and applicable law before every run.
+
+## Status
+
+Version `0.5.0-rc.4` is a requirements-first public release candidate. It is not affiliated with or endorsed by Douyin, Xiaohongshu, OpenCLI, or DokoBot.
 
 ## Dependencies
 
 - Python 3.10 or newer for the bundled validators.
 - A host environment capable of controlling and retaining visible browser tabs.
 - Optional external adapters such as OpenCLI or DokoBot. They are not bundled.
-
-Adapter availability does not grant permission to automate a platform. Review current platform rules and applicable law before every run.
 
 ## Validate locally
 
@@ -69,4 +84,4 @@ python scripts/rank_review_queue.py --input examples/review-items.example.json -
 
 ## License and attribution
 
-Licensed under Apache-2.0. See `LICENSE`, `NOTICE`, and `THIRD_PARTY.md`.
+Licensed under Apache-2.0 with copyright attribution to `sircle_pan`. See `NOTICE` and `THIRD_PARTY.md` for inspiration and third-party notices.
