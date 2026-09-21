@@ -73,6 +73,7 @@ git clone --depth 1 https://github.com/datou202307-design/visible-social-convers
 
 ```text
 python -m unittest discover -s tests -v
+python scripts/start_run.py --platform xiaohongshu --subject "synthetic example topic" --rule-reviewed-at 2026-09-20 --operator-confirmed --human-login-complete --output-dir .runtime/example-run
 python scripts/check_run_plan.py --input examples/run-plan.example.json --output run-plan-receipt.json
 python scripts/authorize_browser_read.py --plan examples/run-plan.example.json --receipt run-plan-receipt.json --target-url https://www.xiaohongshu.com/ --output browser-read-authorization.json
 python scripts/rank_review_queue.py --input examples/review-items.example.json --output review-queue.json
@@ -82,7 +83,7 @@ python scripts/rank_review_queue.py --input examples/review-items.example.json -
 
 - `SKILL.md`：Codex 使用的主流程与边界；
 - `references/`：运行计划、评审队列、数据处理与页面交付合同；
-- `scripts/`：只依赖 Python 标准库的确定性校验器；
+- `scripts/`：只依赖 Python 标准库的运行准备、首读授权和评审校验器；
 - `examples/`：不含真实账号或平台会话数据的合成示例；
 - `tests/`：围绕行为边界编写的单元测试。
 

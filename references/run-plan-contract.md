@@ -2,6 +2,8 @@
 
 Every browser-assisted run starts with a `visible-conversation-run-v1` plan. The plan is an operator-visible boundary, not a claim that the platform permits the operation.
 
+For the default visible-browser route, prefer `scripts/start_run.py`; it creates the plan, accepted receipt, and first-read authorization together in a new directory. Use the full contract below when changing budgets or using `manual_links`, `official_api`, or `written_permission`.
+
 `subject` normally contains the concrete review topic. When the operator explicitly asks the Skill to match the current account, it may instead contain a bounded selection objective such as “derive one subject from the current account's public profile and up to five public posts.” The receipt must still be accepted before the first platform read. After that limited account read, freeze one concrete subject in the ledger before search. Do this separately for every platform; do not reuse another platform account's subject. If public evidence is insufficient, either select a broad profile-supported subject with `low` confidence or stop before search.
 
 ## Required shape

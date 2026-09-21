@@ -1,4 +1,4 @@
 interface:
   display_name: "抖音/小红书热门互动助手"
   short_description: "可见浏览器找3–5个热门页面，生成符合账号人设的待审评论"
-  default_prompt: "Use $visible-social-conversation-scout for one user-started Douyin or Xiaohongshu review session in the visible logged-in browser. Verify public page evidence sequentially, preserve three to five distinct original pages for operator review, and prepare exactly three account-voice response options per page. Do not perform likes, saves, follows, comments, publishing, messages, or any other platform write."
+  default_prompt: "Use $visible-social-conversation-scout for one visible-browser Douyin or Xiaohongshu review. Retain 3–5 verified pages plus the query-visible search tab, prepare three account-voice replies per page, and perform zero platform writes."

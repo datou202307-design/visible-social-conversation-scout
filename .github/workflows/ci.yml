@@ -24,6 +24,7 @@ jobs:
       - name: Validate examples
         shell: bash
         run: |
+          python scripts/start_run.py --platform xiaohongshu --subject "synthetic example topic" --rule-reviewed-at 2026-09-20 --operator-confirmed --human-login-complete --output-dir .runtime/ci-run
           python scripts/check_run_plan.py --input examples/run-plan.example.json --output run-plan-receipt.json
           python scripts/authorize_browser_read.py --plan examples/run-plan.example.json --receipt run-plan-receipt.json --target-url https://www.xiaohongshu.com/ --output browser-read-authorization.json
           python scripts/rank_review_queue.py --input examples/review-items.example.json --output review-queue.json

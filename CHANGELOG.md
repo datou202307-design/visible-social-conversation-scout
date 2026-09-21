@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Reduced the always-loaded Skill entrypoint through staged reference routing, added a deterministic no-overwrite run initializer, and kept the existing visible-browser, stop-condition, delivery, response-count, and zero-write contracts unchanged.
 - Added separate 33.5-second Chinese and English synthetic walkthroughs covering request intake, public account voice, visible search, three retained pages, qualification evidence, three review-only replies, and human takeover.
 - Added separate Chinese and English delivery previews showing one retained source page, qualification evidence, an account-voice summary, and three complete review-only response drafts.
 - Added a tested one-line Git installation command for Codex.

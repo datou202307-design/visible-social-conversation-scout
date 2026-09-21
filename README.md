@@ -73,6 +73,7 @@ Version `0.5.0-rc.4` is a requirements-first public release candidate. It is not
 
 ```text
 python -m unittest discover -s tests -v
+python scripts/start_run.py --platform xiaohongshu --subject "synthetic example topic" --rule-reviewed-at 2026-09-20 --operator-confirmed --human-login-complete --output-dir .runtime/example-run
 python scripts/check_run_plan.py --input examples/run-plan.example.json --output run-plan-receipt.json
 python scripts/authorize_browser_read.py --plan examples/run-plan.example.json --receipt run-plan-receipt.json --target-url https://www.xiaohongshu.com/ --output browser-read-authorization.json
 python scripts/rank_review_queue.py --input examples/review-items.example.json --output review-queue.json
@@ -82,7 +83,7 @@ python scripts/rank_review_queue.py --input examples/review-items.example.json -
 
 - `SKILL.md` — agent-facing workflow and boundaries.
 - `references/` — run plan, review queue, data handling, and visible page delivery contracts.
-- `scripts/` — deterministic standard-library validators.
+- `scripts/` — deterministic run preparation, authorization, and review validators.
 - `examples/` — synthetic inputs with no real account or platform session data.
 - `tests/` — behavior-focused unit tests.
 
