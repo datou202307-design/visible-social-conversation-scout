@@ -2,7 +2,7 @@
 
 English | [简体中文](README.zh-CN.md)
 
-![Douyin and Xiaohongshu AI Conversation Scout reading a public account voice, retaining candidate pages, and waiting for human takeover in a visible browser](assets/readme-banner.png)
+![Douyin and Xiaohongshu AI Conversation Scout reading a public account voice, retaining candidate pages, and waiting for human takeover in a visible browser](assets/readme-banner-en.png)
 
 **Find active content that fits the current account, retain 3–5 original pages in a visible logged-in browser, and prepare three review-only comments for every page.**
 
@@ -10,7 +10,7 @@ Visible Social Conversation Scout is a Codex Skill for human-controlled Douyin a
 
 ## The workflow in eight seconds
 
-![Five-step workflow from reading the public account voice to human takeover](assets/workflow-demo.gif)
+![Five-step workflow from reading the public account voice to human takeover](assets/workflow-demo-en.gif)
 
 `Read public account voice → Search in a visible browser → Retain 3–5 original pages → Prepare three review-only comments per page → Human takeover`
 

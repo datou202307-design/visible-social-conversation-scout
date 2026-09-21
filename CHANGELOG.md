@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- Added a synthetic visible-browser Banner and an eight-second workflow GIF that show account-voice reading, retained candidate tabs, three review-only comments per page, and human takeover.
+- Added separate Chinese and English synthetic visible-browser Banners and eight-second workflow GIFs that show account-voice reading, retained candidate tabs, three review-only comments per page, and human takeover.
 - Reordered both READMEs around the product value, visual workflow, concrete delivery contract, and shortest installation path.
 
 ## 0.5.0-rc.4 - 2026-09-20
