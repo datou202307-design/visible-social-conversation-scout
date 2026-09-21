@@ -16,6 +16,8 @@ Visible Social Conversation Scout is a Codex Skill for human-controlled Douyin a
 
 All accounts, posts, authors, metrics, and images in the demo are synthetic. No real login state or live post data is included.
 
+**[Watch the complete 33.5-second synthetic walkthrough](assets/full-demo-en.mp4)** — from request and public account voice through visible search, three retained pages, selection evidence, three reply drafts, and human takeover.
+
 ## What one run delivers
 
 ![Synthetic delivery preview with a retained source page, selection evidence, account voice, and three review-only drafts](assets/delivery-preview-en.png)
