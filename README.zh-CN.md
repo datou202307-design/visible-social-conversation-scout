@@ -18,6 +18,8 @@ Visible Social Conversation Scout 是一个面向 Codex 的抖音与小红书互
 
 ## 一次运行会交付什么
 
+![合成交付结果示例：原内容页、入选依据、账号语气和三条待审回复集中呈现](assets/delivery-preview.png)
+
 - 单个平台 3–5 个已经核验并保持打开的原内容页面；
 - 另保留 1 个能看到完整搜索词的搜索工作页，作为发现过程凭据，不计入页面交付数；
 - 每个页面恰好 3 条基于页面证据和账号公开声纹的回复选项；
@@ -27,13 +29,13 @@ Visible Social Conversation Scout 是一个面向 Codex 的抖音与小红书互
 
 ## 30 秒安装
 
-将本仓库复制到：
+在 PowerShell、Terminal 或其他已安装 Git 的终端中执行：
 
-```text
-~/.codex/skills/visible-social-conversation-scout
+```bash
+git clone --depth 1 https://github.com/datou202307-design/visible-social-conversation-scout.git "$HOME/.codex/skills/visible-social-conversation-scout"
 ```
 
-下一轮 Codex 对话即可使用：
+这条命令已经在隔离的 Codex 目录中完成真实安装验证；目标目录已存在时会停止，不会覆盖。下一轮 Codex 对话即可使用：
 
 ```text
 使用 $visible-social-conversation-scout，在我当前已登录且可见的 Chrome 中审阅一个小红书主题。交付 3 个原页面，每页给 3 条待审回复，不执行任何平台写操作。

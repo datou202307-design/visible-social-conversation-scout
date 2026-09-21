@@ -18,6 +18,8 @@ All accounts, posts, authors, metrics, and images in the demo are synthetic. No 
 
 ## What one run delivers
 
+![Synthetic delivery preview with a retained source page, selection evidence, account voice, and three review-only drafts](assets/delivery-preview-en.png)
+
 - Three to five verified original pages retained in the user's browser for one platform.
 - One query-visible search workspace retained as discovery evidence; it does not count toward page delivery.
 - Exactly three evidence-bound, account-consistent response options per page.
@@ -27,13 +29,13 @@ All accounts, posts, authors, metrics, and images in the demo are synthetic. No 
 
 ## Install in 30 seconds
 
-Copy this repository directory to:
+Run this one-line installer from PowerShell, Terminal, or a shell with Git:
 
-```text
-~/.codex/skills/visible-social-conversation-scout
+```bash
+git clone --depth 1 https://github.com/datou202307-design/visible-social-conversation-scout.git "$HOME/.codex/skills/visible-social-conversation-scout"
 ```
 
-The Skill becomes available on the next Codex turn. Invoke it explicitly with:
+The command was verified in an isolated Codex home. It stops instead of overwriting an existing directory. The Skill becomes available on the next Codex turn. Invoke it explicitly with:
 
 ```text
 Use $visible-social-conversation-scout to review one topic on Xiaohongshu in my visible logged-in Chrome. Deliver three original pages and three response options per page. Keep all platform writes disabled.

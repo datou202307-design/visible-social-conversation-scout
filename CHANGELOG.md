@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added separate Chinese and English delivery previews showing one retained source page, qualification evidence, an account-voice summary, and three complete review-only response drafts.
+- Added a tested one-line Git installation command for Codex.
 - Added separate Chinese and English synthetic visible-browser Banners and eight-second workflow GIFs that show account-voice reading, retained candidate tabs, three review-only comments per page, and human takeover.
 - Reordered both READMEs around the product value, visual workflow, concrete delivery contract, and shortest installation path.
 
