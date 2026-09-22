@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Add a bilingual GitHub Pages player with chapter controls, all nine drafts, and direct MP4 downloads; README watch links open the player instead of GitHub binary file pages.
+
 - Reduced the always-loaded Skill entrypoint through staged reference routing, added a deterministic no-overwrite run initializer, and kept the existing visible-browser, stop-condition, delivery, response-count, and zero-write contracts unchanged.
 - Replaced the initial walkthroughs with separate 45-second Chinese and English synthetic demos: a full account-to-draft example, a rejected mismatching candidate, continued search with three retained source tabs, all nine comment drafts, and a README installation prompt. Added bilingual text companions for pause-free reading; the UI is explicitly identified as a reconstruction rather than a live recording.
 - Added separate Chinese and English delivery previews showing one retained source page, qualification evidence, an account-voice summary, and three complete review-only response drafts.

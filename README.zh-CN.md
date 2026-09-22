@@ -16,7 +16,7 @@ Visible Social Conversation Scout 是一个面向 Codex 的抖音与小红书互
 
 演示中的账号、帖子、作者、指标与图片均为合成内容，不包含真实账号、登录状态或现场帖子数据。
 
-**[观看 45 秒功能演示](assets/full-demo.mp4)**：完整展示一个案例如何从账号公开表达走到三条建议评论，再继续保留另外两个原页；同时展示如何排除热度高但不匹配的内容。后两页加速呈现，可暂停阅读，或查看[全部九条示例评论](examples/walkthrough.zh-CN.md)。
+**[观看 45 秒功能演示](https://datou202307-design.github.io/visible-social-conversation-scout/?lang=zh)**：完整展示一个案例如何从账号公开表达走到三条建议评论，再继续保留另外两个原页；同时展示如何排除热度高但不匹配的内容。后两页加速呈现，可暂停阅读，或查看[全部九条示例评论](examples/walkthrough.zh-CN.md)。
 
 视频使用合成内容与重建界面，并非真实平台现场录屏。原页面保留在浏览器中，建议评论单独出现在 Codex 中，交给用户审阅。
 
