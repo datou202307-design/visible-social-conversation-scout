@@ -3,7 +3,7 @@
 ## Unreleased
 
 - Reduced the always-loaded Skill entrypoint through staged reference routing, added a deterministic no-overwrite run initializer, and kept the existing visible-browser, stop-condition, delivery, response-count, and zero-write contracts unchanged.
-- Added separate 33.5-second Chinese and English synthetic walkthroughs covering request intake, public account voice, visible search, three retained pages, qualification evidence, three review-only replies, and human takeover.
+- Replaced the initial walkthroughs with separate 45-second Chinese and English synthetic demos: a full account-to-draft example, a rejected mismatching candidate, continued search with three retained source tabs, all nine comment drafts, and a README installation prompt. Added bilingual text companions for pause-free reading; the UI is explicitly identified as a reconstruction rather than a live recording.
 - Added separate Chinese and English delivery previews showing one retained source page, qualification evidence, an account-voice summary, and three complete review-only response drafts.
 - Added a tested one-line Git installation command for Codex.
 - Added separate Chinese and English synthetic visible-browser Banners and eight-second workflow GIFs that show account-voice reading, retained candidate tabs, three review-only comments per page, and human takeover.

@@ -26,7 +26,10 @@ The referenced repository did not advertise an open-source license when this rel
 
 Users install and evaluate optional tools separately under their own terms, privacy policies, and platform permissions.
 
+## Demo media
+
+The README demo media are project-created synthetic illustrations and interface reconstructions. The 45-second walkthroughs use generated photographs, fictional accounts, invented posts and activity figures, and separately authored English and Chinese text. They contain no real account session, live platform capture, or third-party post. The interfaces illustrate the workflow and are not exact reproductions of the current platform or Codex UI.
+
 ## Platform names
 
 Douyin and Xiaohongshu are used only to describe compatibility targets. Their names and marks belong to their respective owners. This project is not affiliated with or endorsed by either platform.
-
